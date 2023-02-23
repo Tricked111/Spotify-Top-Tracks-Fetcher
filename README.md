@@ -41,7 +41,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Clone the repository: `https://github.com/Tricked111/Spotify-Top-Tracks-Fetcher.git`
 
-* Build the Docker image:
+* Build the Docker images:
 
 `` $ docker build -f services/api/Dockerfile -t flask-api:1.0 services/api/ ``
 
@@ -49,7 +49,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 
-* Start the Docker container:
+* Start the Docker containers:
 
  `$ docker run -d -p 5000:5000 flask-api:1.0 `
 
