@@ -8,6 +8,8 @@
 
 This project is a simple application that fetches data from the Spotify REST API and displays it to the user in a simple table format. The data that is fetched consists of the top tracks of any artist, which can be chosen by the user.
 
+![Screenshot_10](https://user-images.githubusercontent.com/91503097/220920521-b24c2655-bc81-4b50-8995-c8207d7dcb4c.png)
+
 ## Features
 
 The application includes the following features:
