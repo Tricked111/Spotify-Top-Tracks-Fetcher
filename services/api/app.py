@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# Spotify API
+# Spotify API client
 spot = spotipy.Spotify(
     auth_manager=SpotifyClientCredentials(
         client_id=os.getenv("SPOTIPY_CLIENT_ID"),
