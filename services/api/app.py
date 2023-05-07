@@ -57,4 +57,5 @@ def search(search):
 
 
 if __name__ == "__main__":
+    # run app
     app.run(debug=True, host="1.1.1.1")
