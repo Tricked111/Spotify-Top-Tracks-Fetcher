@@ -55,6 +55,8 @@ def search(search):
         )
     return jsonify({"error": "Artist not found"})
 
+def function():
+    return "hello"
 
 if __name__ == "__main__":
     # run app
