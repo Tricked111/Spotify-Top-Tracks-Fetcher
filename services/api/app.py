@@ -9,6 +9,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+
+
 # Spotify API
 spot = spotipy.Spotify(
     auth_manager=SpotifyClientCredentials(
